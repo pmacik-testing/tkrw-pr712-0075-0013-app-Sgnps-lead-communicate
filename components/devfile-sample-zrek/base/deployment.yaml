@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-zrek
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0013-tenant/tkrw-pr712-0075-0013-app/devfile-sample-zrek@sha256:3be0674af3944ff325293ebdc29ca056c720629876a246f7547d80e7d8ce77e2
         name: my-nodejs
         ports:
         - containerPort: 3001
